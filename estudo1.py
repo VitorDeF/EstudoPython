@@ -16,7 +16,7 @@ class BaseCalc:
 
     # return the multiply of two numbers
     def mult(a,b):
-        for i in range(0,b):
+        for i in range(1,b-1):
             a+=a
         return a
             
